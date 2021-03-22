@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myindia">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyIndia">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".NationalSymbolsActivity"
+            android:label="@string/national_symbols"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".StatesActivity"
+            android:label="@string/states"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".MonumentsActivity"
+            android:label="@string/monuments"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".LanguagesActivity"
+            android:label="@string/languages"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".RiversActivity"
+            android:label="@string/rivers"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".IndianFoodsActivity"
+            android:label="@string/indian_foods"
+            android:parentActivityName=".MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

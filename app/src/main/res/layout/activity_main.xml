@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_national_symbols">
+
+            <TextView
+                android:id="@+id/national_symbol"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:text="@string/national_symbols" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_states">
+
+            <TextView
+                android:id="@+id/states"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:text="@string/states" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_monuments">
+
+            <TextView
+                android:id="@+id/monuments"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:text="@string/monuments" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_languages">
+
+            <TextView
+                android:id="@+id/languages"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:text="@string/languages" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_rivers">
+
+            <TextView
+                android:id="@+id/rivers"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:text="@string/rivers" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_indian_food">
+
+            <TextView
+                android:id="@+id/indian_foods"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:text="@string/indian_foods" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+</ScrollView>
